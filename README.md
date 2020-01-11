@@ -3,8 +3,8 @@
 A calendar, journal, and organization app for the 21 century.
 Are you tired of spreading your schedule, todos, and journals across multiple apps and paper. Don't settle for a smattering of applications that do one thing. Get an app that does it all, with style.
 
-Introducing Star Chart
-The all in one app that tracks your calendar, todos, goals, medical symptoms, and journal.
+_Introducing Star Chart_
+The all in one app that tracks your calendar, todos, goals, medical symptoms, and notes.
 
 ## Features
 
@@ -13,7 +13,7 @@ The all in one app that tracks your calendar, todos, goals, medical symptoms, an
 - import and export events from google calendar
 - separate event categorization
 
-### Journal
+### Notes
 
 - Add gifs and/or stickers for decoration
 - thoughts
@@ -48,6 +48,14 @@ The all in one app that tracks your calendar, todos, goals, medical symptoms, an
 ### Agenda
 
 - for all above features to look at todos, dates, and dateless tasks
+
+### Goal
+
+- All items related to a goal over time
+
+### Constellation
+
+- View all items related to a constellation(tag)
 
 ## Reminders
 
