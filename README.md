@@ -69,3 +69,8 @@ The all in one app that tracks your calendar, todos, goals, medical symptoms, an
 - Percentage of times I completed all tasks for the day/week/month
 - See mood over time
 - See mood and glasses of water and sleep together
+
+## Completing a goal
+
+- When you complete a goal you can create a constellation with every day you created a note/finished a task
+- possibly randomize grids for different users so everyone has unique constellations
