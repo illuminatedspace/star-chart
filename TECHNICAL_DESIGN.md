@@ -158,3 +158,43 @@ https://github.com/clauderic/react-sortable-hoc
 ### CDN
 
 - Cloudfront
+
+## Customizing Entries
+
+Use the GIPHY API/SDK to allow users to use gifs and "stickers" to customize pages in the app for a more personal experience.
+
+Need to think through what pages will have this ability and how that will work.
+
+Any page that has the ability to be customized in this way basically has overlay layer component.
+That overlay layer is loaded when the page is active. To recreate the customization, the elements on the page will be stored in an object with their gifUrl, scale, rotation, and location, font, textContent to recreate the layer when the page is active.
+
+### How to handle the customizations between App vs Browser
+
+The problem:
+If a user customizes a page on desktop browser, and then views the same page on mobile app, what happens to the customizations
+
+_Solution 1:_
+Lock the customizations to the client (either desktop or mobile)
+
+Pro:
+
+- User has complete freedom on placement
+
+Con:
+
+- Customizations will only appear on one client
+- Have to be duplicated to see on both clients
+- Doubles potential space taken up by customizations
+
+_Solution 2:_
+Constrain customizations to specific anchor points that are translated between views
+
+Pro:
+
+- Customization is viewable from all clients (set once, see everywhere)
+- Uses less potential space
+
+Con:
+
+- Less freedom in customization
+- Need to communicate constraints to user
